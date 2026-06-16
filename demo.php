@@ -15,6 +15,6 @@ class ChildDemo extends Demo{
         echo $this->protectedVar . "\n";
     }
 }
-$child = new ChildDemo;
-$child->showFromChild();
+$child = new Demo;
+$child->showAll();
 ?>
